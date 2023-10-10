@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background: radial-gradient(closest-corner, #091B22, #151b25);
+}
+
+.banner .banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+}
+
+.banner .banner-content button{
+    border: 1px solid #1F85C4;
+    width: 200px;
+    height: 30px;
+    color: #1F85C4;
+    background-color: rgb(48, 39, 39);
+    background-size: contain;
+    text-transform: uppercase;
+}  
+
+.logo {
+    background-size: cover;
+    max-width: 50%; 
+    max-height: 200px;
+    
+}
+
+.banner-p {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 40%;
+    text-align: justify;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #1F85C4;
+    font-weight: 700;
+}
+
+p {
+    color: white;
+    width: 50%;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+
+.module {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 1px solid #1F85C4;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    width: 400px;
+    text-align: center;
+    font-size: small;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: #1F85C4;
+}
+
+span {
+    margin-right: 10px;
+    color: #1F85C4;
+}
+
+#transform-world {
+    background-image: url(assets/images/woman-code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    border-bottom: #1F85C4;
+}
+
+#transform-world p {
+    width: 180px;
+    font-size:25px;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    margin-left: 50px;
+}
+
+#professional-challenges h2 {
+    color: #1F85C4;
+    text-transform: uppercase;
+    width: 30%;
+    text-align: center;
+    margin-top: 40px;
+}
+
